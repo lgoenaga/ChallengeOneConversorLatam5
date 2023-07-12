@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.alura.challenger.CurrenCyConvert">
+  <grid id="27dc6" binding="formMain" layout-manager="GridLayoutManager" row-count="12" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="10" vgap="10">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="789" height="477"/>
+    </constraints>
+    <properties>
+      <background color="-9336970"/>
+    </properties>
+    <border type="line">
+      <title-color color="-4473925"/>
+      <color color="-15854661"/>
+    </border>
+    <children>
+      <component id="e2c48" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="2e19d" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="6" vsize-policy="3" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <orientation value="0"/>
+        </properties>
+      </component>
+      <component id="e4caf" class="javax.swing.JLabel" binding="lblOrigin">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <labelFor value="91e33"/>
+          <text value="ORIGIN CURRENCY"/>
+        </properties>
+      </component>
+      <component id="91e33" class="javax.swing.JComboBox" binding="cbOrigin">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <model>
+            <item value="PESO COL"/>
+            <item value="EURO"/>
+            <item value="DOLAR"/>
+            <item value="FRANCO"/>
+            <item value="YEN"/>
+            <item value="LIBRA"/>
+            <item value="PESO MXN"/>
+            <item value="RUBLO"/>
+            <item value="CORONA"/>
+            <item value="LIRA"/>
+          </model>
+        </properties>
+      </component>
+      <component id="ba40b" class="javax.swing.JTextField" binding="textResult">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5066062"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font size="18"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1834d" class="javax.swing.JLabel" binding="lblResult">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <labelFor value="ba40b"/>
+          <text value="CONVERSION"/>
+        </properties>
+      </component>
+      <component id="4f71e" class="javax.swing.JLabel" binding="lblTitle">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="7" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="36" style="1"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="CURRENCY CONVERTER"/>
+        </properties>
+      </component>
+      <component id="ff835" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="6" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="80b53" class="javax.swing.JLabel" binding="lblSalir">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="28" style="2"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="THANK YOU"/>
+        </properties>
+      </component>
+      <component id="3f3ba" class="javax.swing.JLabel" binding="lblDestination">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <labelFor value="24160"/>
+          <text value="DESTINATION CURRENCY"/>
+        </properties>
+      </component>
+      <component id="24160" class="javax.swing.JComboBox" binding="cbDestination">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <model>
+            <item value="EURO"/>
+            <item value="PESO COL"/>
+            <item value="DOLAR"/>
+            <item value="FRANCO"/>
+            <item value="YEN"/>
+            <item value="LIBRA"/>
+            <item value="PESO MXN"/>
+            <item value="RUBLO"/>
+            <item value="CORONA"/>
+            <item value="LIRA"/>
+          </model>
+        </properties>
+      </component>
+      <component id="74add" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="6" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="91928" class="javax.swing.JLabel" binding="lblTrm">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="CURRENT TRM  "/>
+        </properties>
+      </component>
+      <component id="24d66" class="javax.swing.JLabel" binding="lblValueTRM">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="15fba" class="javax.swing.JButton" binding="buttonConverter">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18"/>
+          <text value="Converter"/>
+        </properties>
+      </component>
+      <component id="2c99f" class="javax.swing.JTextField" binding="textCant">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="18"/>
+          <horizontalAlignment value="2"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5fcd9" class="javax.swing.JLabel" binding="lblCant">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="2"/>
+          <labelFor value="2c99f"/>
+          <text value="AMOUNT CONVERT"/>
+        </properties>
+      </component>
+      <component id="5adb1" class="javax.swing.JLabel" binding="lblBaseConvert">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="2"/>
+          <text value="BASE"/>
+        </properties>
+      </component>
+      <component id="c4b2d" class="javax.swing.JLabel" binding="lblCurrency">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="2"/>
+          <text value="CURRENCY"/>
+        </properties>
+      </component>
+      <component id="f37ae" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="39793" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="7" row-span="11" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="99b00" class="javax.swing.JSeparator">
+        <constraints>
+          <grid row="1" column="0" row-span="11" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
