@@ -44,16 +44,16 @@
         <properties>
           <font size="18"/>
           <model>
-            <item value="PESO COL"/>
-            <item value="EURO"/>
-            <item value="DOLAR"/>
-            <item value="FRANCO"/>
-            <item value="YEN"/>
-            <item value="LIBRA"/>
-            <item value="PESO MXN"/>
-            <item value="RUBLO"/>
-            <item value="CORONA"/>
-            <item value="LIRA"/>
+            <item value="COP"/>
+            <item value="EUR "/>
+            <item value="USD"/>
+            <item value="CHF"/>
+            <item value="JPY"/>
+            <item value="GBP"/>
+            <item value="MXN"/>
+            <item value="RUB"/>
+            <item value="SEK"/>
+            <item value="TRY"/>
           </model>
         </properties>
       </component>
@@ -124,16 +124,16 @@
         <properties>
           <font size="18"/>
           <model>
-            <item value="EURO"/>
-            <item value="PESO COL"/>
-            <item value="DOLAR"/>
-            <item value="FRANCO"/>
-            <item value="YEN"/>
-            <item value="LIBRA"/>
-            <item value="PESO MXN"/>
-            <item value="RUBLO"/>
-            <item value="CORONA"/>
-            <item value="LIRA"/>
+            <item value="EUR "/>
+            <item value="COP"/>
+            <item value="USD"/>
+            <item value="CHF"/>
+            <item value="JPY"/>
+            <item value="GBP"/>
+            <item value="MXN"/>
+            <item value="RUB"/>
+            <item value="SEK"/>
+            <item value="TRY"/>
           </model>
         </properties>
       </component>
@@ -158,7 +158,7 @@
         </constraints>
         <properties>
           <font size="18"/>
-          <horizontalAlignment value="2"/>
+          <horizontalAlignment value="0"/>
           <horizontalTextPosition value="0"/>
           <text value=""/>
         </properties>
@@ -199,6 +199,7 @@
         </constraints>
         <properties>
           <font size="18" style="2"/>
+          <horizontalAlignment value="4"/>
           <text value="BASE"/>
         </properties>
       </component>
